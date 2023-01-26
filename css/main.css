@@ -1,0 +1,177 @@
+
+:root{
+    --corpprincipal: #a7eae8;
+    --corsecundaria: #49b9c8;
+    --cortitulo: #160c6c;
+    --corterciaria:#2340d490;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #e6e9e9;
+}
+
+.logo {
+    width: 90px;
+    padding: 2px;
+    }
+
+h1{
+    width: auto;
+    height: 100px;
+    font-size: 30px;
+    margin: 2px;
+    padding: 2px;
+}
+
+a:link, a:active, a:visited{
+    color:#315e8a;
+    text-decoration:none;
+    }
+
+
+
+a.botao:hover,input.botao:hover{
+        background:#315e89;
+        text-decoration:none;
+        
+}
+.menu-principal {
+    width:  100%;
+    background-color:var(--cortitulo);
+    background: linear-gradient(rgb(38, 38, 246), rgb(192, 194, 239));
+    height: 60px;
+  }
+
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.menu ul li{
+    font-size: 20px;
+    display:inline-block;
+    justify-content: center;
+    padding-top: 10px;
+    margin-right: 10px;    
+    text-decoration:none;
+    
+    
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height:500px;
+}
+.content{
+    float: left;
+    width: 800px;
+    background: var(--corsecundaria);
+    background: linear-gradient(rgb(223, 230, 223), rgb(184, 246, 235));
+    font-size: 15px;
+    padding: 10px;
+
+}
+.sidebar{
+    float: right;
+    width: 460px;
+    background:var(--corpprincipal);
+    background: linear-gradient( rgb(155, 231, 240),rgb(231, 234, 235));
+    margin: 0 5px 10px 0;
+    padding: 20px;
+ 
+   
+}
+
+ul li{
+    list-style: none;
+    font-size: 15px;
+    display:inline-block;
+    justify-content: center;
+    padding-top: 10px;
+    margin-right: 10px;    
+    text-decoration:none;
+    
+
+}
+.mapa{
+    width: 960px;
+    height: 500px;
+    align-items: center;
+    clear: both;
+
+}
+
+.contato label{
+	display: block;
+	font-size: 13px;
+    font-weight: bold;
+	font-weight: 250;
+}
+.contato input, .contato textarea{
+	display: block;
+	margin-bottom: 15px;
+	padding: 10px 2%;
+	width: 96%;
+    border-radius: 5pt;
+}
+.contato textarea{
+	height: 150px;
+}
+.contato input.botao{
+	width:auto;
+}
+
+.botao{
+        background-color: transparent;
+        border-color: #47bfda;
+        padding: 7px;
+        font-weight: bold;
+        border-radius: 15%;
+        font-size: 12pt;
+        margin-top: 20px;
+        box-shadow: 5px 3px 1px 0 #00000080;
+        cursor: pointer;
+        outline: none;
+        transition: all .4s ease-out;
+}
+
+footer .redes-sociais{
+     justify-content: center;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    fill: 2%;
+    padding: 2%;
+    margin-top: 15px;
+    margin-top:15px;
+    background:var(--corterciaria);
+    background:linear-gradient(rgb(189, 190, 227), blue);
+    color:#afd9e1;
+}
+
+
+.rodape h3 {
+    font-size:16px;
+}
+
+.icons íon-ícone {
+    width: 50px;
+    height: 20px;
+    color:#d2d9da;
+}
+
+.icons ion-icon:hover {
+    color: var(--corsecundaria);
+}
+
+footer{
+    clear: both;
+}
+
+
